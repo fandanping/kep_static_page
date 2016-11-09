@@ -1,0 +1,20 @@
+{
+  "name": "kep_static_page",
+  "homepage": "https://github.com/fandanping/kep_static_page",
+  "authors": [
+    "AfterWin <CJ_Zheng1023@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
