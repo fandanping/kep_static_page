@@ -1,4 +1,6 @@
 .avator img{
-    width: 30%;
     margin-right: 10px;
+}
+.panel .panel-body .sign{
+    margin-top: 20px;
 }
