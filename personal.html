@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>知识交流平台</title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="styles/public.css"/>
+    <link rel="stylesheet" href="styles/personal.css"/>
+</head>
+<body>
+<!-- header -->
+<header>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
+                    <span class="sr-only">顶部导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">知识交流平台</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">全部</a></li>
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">Node.js</a></li>
+                    <li><a href="#">专利业务</a></li>
+                    <li><a href="#">服务器</a></li>
+                    <li><a href="#">JAVA</a></li>
+                    <li><a href="#">javascript</a></li>
+                    <li><a href="#">Vue.js</a></li>
+                    <li><a href="#">数据库</a></li>
+                    <li><a href="#">其他</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</header>
+<!-- /header -->
+
+<!-- page content -->
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <ol class="breadcrumb">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li class="active">个人中心</li>
+                </ol>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">最近发布过的话题</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="alert alert-warning" role="alert">没有任何话题</div>
+                    </div>
+                    <div class="panel-footer text-right">
+                       <a class="btn btn-primary">查看更多</a>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">最近发表过的话题</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="alert alert-warning" role="alert">没有任何话题</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">个人信息</h3>
+                    </div>
+                    <div class="panel-body">
+                      <a class="avator" href="javascript:;">
+                          <img src="img/photo.gif">
+                          <strong>fandanping</strong>
+                      </a>
+                       <p class="sign text-center"><a href="javascript:;">这家伙很懒，什么都没有留下</a></p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+
+                    <div class="panel-body text-center">
+                       <a class="btn btn-success" href="javascrit:;">
+                            发布新话题
+                       </a>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">注意事项</h3>
+                    </div>
+                    <div class="panel-body">
+                        注册用户发帖必须遵守中国法律法规，本站只提供交流平台，发帖人需为自己的行为负责，注册成功成为本站用户即视为同意本事项。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /page content -->
+
+<!-- footer -->
+<footer>
+    <div class="container text-center">
+        <hr>
+        <p>&copy;东软集团</p>
+        <p>已在Github开源：<a href="https://github.com/fandanping/kep" target="_blank">源码</a></p>
+    </div>
+</footer>
+<!-- /footer -->
+
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

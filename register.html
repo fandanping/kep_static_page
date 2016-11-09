@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>知识交流平台</title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="styles/index.css"/>
+</head>
+<body>
+<!-- header -->
+<header>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
+                    <span class="sr-only">顶部导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">知识交流平台</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">全部</a></li>
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">Node.js</a></li>
+                    <li><a href="#">专利业务</a></li>
+                    <li><a href="#">服务器</a></li>
+                    <li><a href="#">JAVA</a></li>
+                    <li><a href="#">javascript</a></li>
+                    <li><a href="#">Vue.js</a></li>
+                    <li><a href="#">数据库</a></li>
+                    <li><a href="#">其他</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</header>
+<!-- /header -->
+
+<!-- page content -->
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">用户登录</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form class="row login-form" action="" method="post">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">用户名</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="username">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">密码</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">邮箱地址</label>
+                                    <input type="password" class="form-control" id="" placeholder="必填 用于找回密码">
+                                </div>
+                                <button type="submit" class="btn btn-primary">注册</button>
+                            </div>
+                            <div class="col-md-7">
+                                <hr>
+                                <div class="help-block text-center">
+                                    <p>已经有账号了，请登陆</p>
+                                    <p><a href="login.html">我要登录</a></p>
+                                </div>
+                                <hr>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">注意事项</h3>
+                    </div>
+                    <div class="panel-body">
+                        注册用户发帖必须遵守中国法律法规，本站只提供交流平台，发帖人需为自己的行为负责，注册成功成为本站用户即视为同意本事项。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- /page content -->
+
+<!-- footer -->
+<footer>
+    <div class="container text-center">
+        <hr>
+        <p>&copy;东软集团</p>
+        <p>已在Github开源：<a href="https://github.com/fandanping/kep" target="_blank">源码</a></p>
+    </div>
+</footer>
+<!-- /footer -->
+
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
+        
