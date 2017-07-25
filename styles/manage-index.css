@@ -1,0 +1,19 @@
+.content .row-manage .manage-item{
+    display: block;
+    text-decoration: none;
+}
+.content .row-manage .alert .icon>span{
+    font-size: 70px;
+}
+.content .alert-user .icon>span{
+    color: #31708f;
+}
+.content .alert-topic .icon>span{
+    color: #3c763d;
+}
+.content .alert-user h3{
+    color: #31708f;
+}
+.content .alert-topic h3{
+    color: #3c763d;
+}

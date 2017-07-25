@@ -13,6 +13,15 @@ $(function(){
             })
         }
 
+    })
+    $(".side-menu .btn-close").on("click", function(){
+        var $menuBtn = $("#sideMenuBtn");
+        if($menuBtn.hasClass("active")){
+            $(".side-menu").css({
+                "transform":"translateX(-100%)"
+            })
+            $menuBtn.removeClass("active");
+        }
 
     })
 

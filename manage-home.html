@@ -6,13 +6,29 @@
     <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="styles/public.css"/>
     <link rel="stylesheet" href="styles/manage.css"/>
+    <link rel="stylesheet" href="styles/manage-index.css"/>
 </head>
 <body>
     <div class="side-menu">
         <ul>
             <li>
                 <a href="javascript:;">
-                    <span></span>
+                    <span class="glyphicon glyphicon-remove btn-close menu-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="glyphicon glyphicon-home menu-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="glyphicon glyphicon-user menu-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="glyphicon glyphicon-file menu-item"></span>
                 </a>
             </li>
         </ul>
@@ -30,7 +46,81 @@
     </header>
 
     <div class="content">
-
+        <div class="container">
+            <hr>
+            <div class="row row-manage">
+                <div class="col-md-6">
+                    <a href="javascript:;" class="manage-item">
+                        <div class="alert alert-info text-center alert-user">
+                            <div class="icon">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                            <h3>人员管理</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="javascript:;" class="manage-item">
+                        <div class="alert alert-success text-center alert-topic">
+                            <div class="icon">
+                                <span class="glyphicon glyphicon-file"></span>
+                            </div>
+                            <h3>主题管理</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            发帖排行
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a href="javascript:;" class="list-group-item">123</a>
+                                <a href="javascript:;" class="list-group-item">123</a>
+                                <a href="javascript:;" class="list-group-item">123</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            回帖排行
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a href="javascript:;" class="list-group-item">123</a>
+                                <a href="javascript:;" class="list-group-item">123</a>
+                                <a href="javascript:;" class="list-group-item">123</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="alert alert-info text-center">
+                        <h3>帖子数</h3>
+                        <p>10</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert-success text-center">
+                        <h3>回帖数</h3>
+                        <p>10</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert-warning text-center">
+                        <h3>社区人员</h3>
+                        <p>10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer>
