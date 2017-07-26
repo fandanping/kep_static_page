@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>知识交流平台</title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="lib/uniform/css/uniform.default.min.css"/>
+    <link rel="stylesheet" href="styles/public.css"/>
+    <link rel="stylesheet" href="styles/manage.css"/>
+    <link rel="stylesheet" href="styles/manage-topic.css"/>
+</head>
+<body>
+<div class="side-menu">
+    <ul>
+        <li>
+            <a href="javascript:;">
+                <span class="glyphicon glyphicon-remove btn-close menu-item"></span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <span class="glyphicon glyphicon-home menu-item"></span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <span class="glyphicon glyphicon-user menu-item"></span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <span class="glyphicon glyphicon-file menu-item"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" id="sideMenuBtn"></span>
+                <h1 class="title">后台管理</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <div class="container">
+        <hr>
+        <div class="search-form">
+            <form class="form-horizontal">
+                <div class="form-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="topicTitle" class="col-sm-2 control-label">标题</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="topicTitle" name="topicTitle" placeholder="请输入标题">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="topicUser" class="col-sm-2 control-label">用户</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="topicUser" name="topicUser" placeholder="请输入用户名">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="topicContent" class="col-sm-2 control-label">内容</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="topicContent" name="topicContent" placeholder="请输入内容">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-action clearfix">
+                    <button type="submit" class="btn btn-primary pull-right">查询</button>
+                </div>
+            </form>
+        </div>
+        <div class="box blue">
+            <div class="box-title clearfix">
+                <div class="caption">
+                    主题列表
+                </div>
+                <div class="tools">
+                    <div class="btn-group">
+                        <a href="javascript:;" class="btn btn-default">
+                            <span class="glyphicon glyphicon-trash"></span>
+                            批量删除
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="table-scrollable">
+                    <table class="table table-responsive table-bordered table-hover" id="tableTopic">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <input type="checkbox" class="group-checkable" data-set="#tableTopic .checkboxes" />
+                                </th>
+                                <th>
+                                    标题
+                                </th>
+                                <th>
+                                    用户
+                                </th>
+                                <th>
+                                    发布时间
+                                </th>
+                                <th>
+                                    操作
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" class="checkboxes"/>
+                                </td>
+                                <td>title</td>
+                                <td>user</td>
+                                <td>2017.7.2 20:21:03</td>
+                                <td>123</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" class="checkboxes"/>
+                                </td>
+                                <td>title</td>
+                                <td>user</td>
+                                <td>2017.7.2 20:21:03</td>
+                                <td>123</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" class="checkboxes"/>
+                                </td>
+                                <td>title</td>
+                                <td>user</td>
+                                <td>2017.7.2 20:21:03</td>
+                                <td>123</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container text-center">
+        <hr>
+        <p>&copy;东软集团</p>
+        <p>已在Github开源：<a href="https://github.com/fandanping/kep" target="_blank">源码</a></p>
+    </div>
+</footer>
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="lib/uniform/jquery.uniform.js"></script>
+<script src="scripts/manage-common.js"></script>
+<script src="scripts/manage-topic.js"></script>
+</body>
+</html>
