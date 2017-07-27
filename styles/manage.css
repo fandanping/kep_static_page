@@ -23,6 +23,10 @@
 .side-menu li{
     padding: 20px 25px;
     margin: 0;
+    border-bottom: 1px solid #3BA551;
+}
+.side-menu li:nth-of-type(1){
+    border-bottom-width: 0;
 }
 .side-menu li .btn-close{
     color: #000;
@@ -72,6 +76,12 @@
     border-top-right-radius: 2px;
     padding: 10px;
 }
+.box .box-body .btn{
+    padding: 3px 12px;
+}
+.box .box-body table td{
+    vertical-align: middle;
+}
 
 /********box end*********/
 
@@ -90,4 +100,7 @@ header .title{
     font-size: 22px;
     float: right;
     margin: 0;
+}
+.search-form{
+    margin-bottom: 25px;
 }
